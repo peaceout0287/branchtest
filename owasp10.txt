@@ -1,0 +1,31 @@
+the following are the owasp top 10 web vulnerabilites
+1. Broken Access Control
+Exploiting flaws in access control mechanisms to gain unauthorized access to sensitive data or actions.
+Examples: Accessing user data of others, modifying data without permission.
+2. Cryptographic Failures
+Problems related to the improper use of cryptography.
+Examples: Storing sensitive data without encryption, using weak encryption algorithms.
+3. Injection
+Supplying untrusted data to an interpreter as part of a command or query.
+Examples: SQL injection, NoSQL injection, OS command injection.
+4. Insecure Design
+Flaws in the application's architecture or design that compromise security.
+Examples: Lack of secure coding practices, absence of threat modeling.
+5. Security Misconfiguration
+Incorrectly configured security controls or default configurations.
+Examples: Unnecessary features enabled, default accounts/passwords not changed.
+6. Vulnerable and Outdated Components
+Using libraries, frameworks, or other software components with known vulnerabilities.
+Examples: Running outdated versions of software with unpatched security issues.
+7. Identification and Authentication Failures
+Weaknesses in authentication mechanisms.
+Examples: Weak passwords, missing multi-factor authentication (MFA).
+8. Software and Data Integrity Failures
+Issues in the verification of software integrity or tampering.
+Examples: Using untrusted plugins, no signature verification for updates.
+9. Security Logging and Monitoring Failures
+Lack of proper logging and monitoring of security-relevant events.
+Examples: Missing logs for suspicious activities, delayed breach detection.
+10. Server-Side Request Forgery (SSRF)
+Exploiting the server to make unintended requests to internal or external systems.
+Examples: Forcing the server to query internal services or external APIs.
