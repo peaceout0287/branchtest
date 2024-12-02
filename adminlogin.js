@@ -5,5 +5,10 @@ class Signinpage {
   string password;
   Scanner sc = new Scanner(System.in);
   username = sc.nextChar();
+  System.out.println("enter the admin username");
   password = sc.nextChat();
+  System.out.println("enter the password");
+  System.out.println(username);
+  System.out.println(password);
+  
 }
